@@ -1,0 +1,39 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    list-style-type: none;
+    padding: 0;
+}
+
+.pagination li {
+    margin: 0 5px;
+    
+}
+
+.pagination li a {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    color: #007bff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.pagination li a:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.pagination .active a {
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+table {
+    box-shadow: 1px 1px 1px #999;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); Adjust the last parameter for shadow intensity */
+  }
+
+  tr:{
+    height: 10px;
+  }
